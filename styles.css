@@ -16,12 +16,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 0px 50px black;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .display {
     display: flex;
     width: 400px;
-    height: 75px;
+    height: 100px;
     font-size: 50px;
     justify-content: flex-end;
     background-color: #01302E;
@@ -60,7 +63,10 @@ button {
 .operand {
     margin: 5px;
     background-color: #D6C285;
-    
+}
+
+.operand:hover {
+    opacity: 75%;
 }
 
 .digits {
@@ -71,7 +77,9 @@ button {
 }
 
 .digit {
-    opacity: 0.75;
     margin: 5px;
+}
+.digit:hover {
+    opacity: 75%;
 }
 
